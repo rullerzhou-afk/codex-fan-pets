@@ -4,10 +4,10 @@ Fan-made custom pets for Codex.
 
 ## Pets
 
-| Klee / 可莉 | yoimiya宵宫 | Paimon财神派蒙 |
+| Klee / 可莉 | yoimiya宵宫 | Rich Paimon财神派蒙 |
 |---|---|---|
-| <img src="assets/klee-preview.gif" alt="Klee Codex pet preview" width="256"> | <img src="assets/yoimiya-preview.gif" alt="yoimiya宵宫 Codex pet preview" width="256"> | <img src="assets/paimon-preview.gif" alt="Paimon财神派蒙 Codex pet preview" width="256"> |
-| `klee` | `yoimiya宵宫` | `Paimon财神派蒙` |
+| <img src="assets/klee-preview.gif" alt="Klee Codex pet preview" width="256"> | <img src="assets/yoimiya-preview.gif" alt="yoimiya宵宫 Codex pet preview" width="256"> | <img src="assets/paimon-preview.gif" alt="Rich Paimon财神派蒙 Codex pet preview" width="256"> |
+| `klee` | `yoimiya宵宫` | `Rich Paimon财神派蒙` |
 
 These are fan-made Codex pets inspired by characters from Genshin Impact.
 
@@ -18,7 +18,7 @@ This project is unofficial and is not affiliated with OpenAI, Codex, HoYoverse, 
 From this repository root:
 
 ```powershell
-$pet = "Paimon财神派蒙" # or "yoimiya宵宫" / "klee"
+$pet = "Rich Paimon财神派蒙" # or "yoimiya宵宫" / "klee"
 $dest = "$env:USERPROFILE\.codex\pets\$pet"
 New-Item -ItemType Directory -Force -Path $dest | Out-Null
 Copy-Item ".\pets\$pet\pet.json", ".\pets\$pet\spritesheet.webp" -Destination $dest -Force
