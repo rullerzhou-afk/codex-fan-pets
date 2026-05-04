@@ -8,6 +8,8 @@ Fan-made custom pets for Codex.
 
 Klee is a fan-made Codex pet inspired by Klee from Genshin Impact.
 
+<img src="assets/klee-preview.gif" alt="Klee Codex pet preview" width="384">
+
 This project is unofficial and is not affiliated with OpenAI, Codex, HoYoverse, or Genshin Impact.
 
 ## Install
