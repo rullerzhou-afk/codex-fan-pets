@@ -4,10 +4,10 @@ Fan-made custom pets for Codex.
 
 ## Pets
 
-| Klee / 可莉 | Yoimiya / 宵宫 |
+| Klee / 可莉 | yoimiya宵宫 |
 |---|---|
-| <img src="assets/klee-preview.gif" alt="Klee Codex pet preview" width="256"> | <img src="assets/yoimiya-preview.gif" alt="Yoimiya Codex pet preview" width="256"> |
-| `klee` | `yoimiya-pet` |
+| <img src="assets/klee-preview.gif" alt="Klee Codex pet preview" width="256"> | <img src="assets/yoimiya-preview.gif" alt="yoimiya宵宫 Codex pet preview" width="256"> |
+| `klee` | `yoimiya宵宫` |
 
 These are fan-made Codex pets inspired by characters from Genshin Impact.
 
@@ -18,7 +18,7 @@ This project is unofficial and is not affiliated with OpenAI, Codex, HoYoverse, 
 From this repository root:
 
 ```powershell
-$pet = "yoimiya-pet" # or "klee"
+$pet = "yoimiya宵宫" # or "klee"
 $dest = "$env:USERPROFILE\.codex\pets\$pet"
 New-Item -ItemType Directory -Force -Path $dest | Out-Null
 Copy-Item ".\pets\$pet\pet.json", ".\pets\$pet\spritesheet.webp" -Destination $dest -Force
