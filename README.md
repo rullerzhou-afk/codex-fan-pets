@@ -26,7 +26,7 @@ From this repository root:
 $pet = "furina芙宁娜" # or "sandrone-marionette" / "Hilichurl丘丘人" / "Rich Paimon财神派蒙" / "yoimiya宵宫" / "klee"
 $dest = "$env:USERPROFILE\.codex\pets\$pet"
 New-Item -ItemType Directory -Force -Path $dest | Out-Null
-Copy-Item ".\pets\$pet\pet.json", ".\pets\$pet\spritesheet.webp" -Destination $dest -Force
+Copy-Item ".\pets\$pet\pet.json", ".\pets\$pet\spritesheet.png" -Destination $dest -Force
 ```
 
 Then open Codex and refresh custom pets from the appearance settings.
