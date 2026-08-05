@@ -1,6 +1,7 @@
 {
   "id": "hilichurl-qiuqiuren",
-  "displayName": "Hilichurl \u4e18\u4e18\u4eba",
-  "description": "A tiny Genshin Impact Hilichurl / \u4e18\u4e18\u4eba Codex Pet with a soft peach mane, horned mask, and shy brave energy.",
-  "spritesheetPath": "spritesheet.webp"
+  "displayName": "Hilichurl 丘丘人",
+  "description": "A tiny Genshin Impact Hilichurl / 丘丘人 Codex Pet with a soft peach mane, horned mask, and shy brave energy.",
+  "spriteVersionNumber": 2,
+  "spritesheetPath": "spritesheet.png"
 }
